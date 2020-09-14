@@ -1,0 +1,41 @@
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    width: 350px;
+    margin: 25% auto;
+    position: relative;
+}
+
+kbd {
+    display: inline-block;
+    text-align: center;
+}
+
+.white-keys kbd {
+    background-color: #fff;
+    border: 2px solid lightgrey;
+    line-height: 250px;
+    width: 46px;
+    height: 150px;
+}
+
+.black-keys {
+    position: absolute;
+    top:0;
+    padding-left: 25px;
+}
+
+.black-keys kbd {
+    background-color: #000;
+    width: 30px;
+    height: 100px;
+    color: white;
+    line-height: 140px;
+    margin: 0 10px;
+}
+
+.black-keys kbd:nth-child(3) {
+    margin-left:60px;
+}
